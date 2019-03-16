@@ -1,0 +1,313 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+languageCode = "en-AU"
+title = "TRENET | IT & IDEE"
+
+#+-----------------+ÕPETUSED+-----------------+
+#|                                            |
+#|    _   _ ____  _                           |
+#|   | \ | |  _ \| |  Ära Kasuta tavalist     |
+#|   |  \| | |_) | |  windowsi:               |
+#|   | . ` |  _ <+ |  notepad                 |
+#|   | |\  | |_) |_|  rakendust et seda faili |
+#|   |_| \_|____/(_)  töödelda!               |
+#|                    Pigem kasuta Notepad++  |
+#| 					  või midagi muud		  |
+#|                                            |
+#+--------------------------------------------+
+
+#+-----------------+ÕPETUSED+-----------------+
+#|                                            |
+#| Kommenteerida siin failis saab lisades #   |
+#| sõna algusesse.                            |
+#|                                            |
+#| Veebileht on onepager, ehk mida näed lehel |
+#| on jagatud siin erinevateks sektsioonideks |
+#|                                            |
+#| Igat sektsiooni on võimalik eemaldada      |
+#| muutes sekstiooni alguses                  |
+#| enable = true -> false                     |
+#|                                            |
+#| Kõik pildid asetsevad:                     |
+#| Hugo/Site/trenet-main/static/images        |
+#|                                            |
+#| Kõik lingid ning õpetused on               |
+#| config.toml+i all +> õpetused.txt          |
+#|                                            |
+#+--------------------------------------------+
+
+#+-------------------------------------------------------------------------------------+
+#|                                                                                     |
+#|   Juhul kui soovid nuppu lisada                                                     |
+#|   siis kasuta seda:                                                                 |
+#|                                                                                     |
+#|   <a href='#' class='btn btn-info btn-outline fh5co-content-nav'>Uuri Lähemalt</a>  |
+#|                                                                                     |
+#|   muuda href=<asukoht> ning sisesta <asukoha> asemele kuhu nupp edasi viib          |
+#|                                                                                     |
+#|   Kui soovid teisel lehele avad lisa target="_blank" href-i kõrvale                 |
+#|                                                                                     |
+#|   Kui soovid muuta nupu Välimust pead muutma btn-info-t ja btn-outline-i            |
+#|   ning uurima siit lehelt mis kujundus sulle sobiks:                                |
+#|    https://getbootstrap.com/docs/4.0/components/buttons/                            |
+#|                                                                                     |
+#+-------------------------------------------------------------------------------------+
+
+#+----------------------------------------+
+#|                                        |
+#|  METADATA Jääb vaid koodi ning pole    |
+#|  lehel nähtav.                         |
+#|                                        |
+#+----------------------------------------+
+
+
+# Metadata
+[params]
+  author = "Eric Talviste"
+  description = "Erinevad IT teenused, hooldused ja muud tehnoloogia lahendused!"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/web_background3.jpg"
+  title = "Loome koos uue ja parema IT-maailma"
+  description = "TRENET IT & IDEE - Terviklikud IT-lahendused"
+
+# Navigation section
+[params.nav]
+  mission = "Teenused"
+  services = "Tooted"
+  team = "Meeskond"
+  contact = "Võta ühendust"
+  offers = "Pakkumised"
+  # Include logo instead if HOME:
+  # Pane < Logo > taha kommentaar (#) kui ei soovi logo kasutada
+  logo = "images/trenet-logo-colored.svg"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/stock_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/stock_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/stock_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/stock_4.jpg"
+  
+  [[params.mission.item]]
+    weight = 1
+    name = "Pangalink"
+    title = "Pangalink "
+    subtitle = "Pangalink on makselahenduse installeerimine (loomine) kaupmehe e-poele."
+    description = "Pakume pangalingi loomist Eestis tegutse-vatesse pankadesse ning erinevaid krediitkaardi makselahendusi.<ul class='checked' style='columns: 2'> <li> SEB </li> <li> Swedbank </li> <li> Sampo </li> <li> Nordea </li> <li> PayPal </li> <li> Visa </li> <li> MasterCard </li> </ul> <p><a href='/teenused/hinnakiri' class='btn btn-info btn-outline'>Uuri Hinnakirja</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "Hansaworld"
+    title = "Hansaworld" 
+    subtitle = "HansaWord tarkvara majutust pakub TRENET AS koostöös Excellent Business Solutions Eesti AS-ga."
+    description = "Raamatupidamistarkvara majutusteenus, mis on kättesaadav 24/7 ning raamatupidaja võib teha tööd sõltumata asukohast. Vajalik on ainult internetiühendus. </p><ul class='checked'><li>kulude täpne prognoosimine, kuna teenusel on fikseeritud hind;</li><li>varukoopiate tegemine on garanteeritud;</li><li>puudub vajadus oma serverile, puuduvad selle hooldus- ja ülalpidamiskulud.</li></ul><p><a href='/teenused/hansaworld' class='btn btn-info btn-outline fh5co-content-nav'>Uuri Lähemalt</a> <a href='/teenused/hinnakiri' class='btn btn-primary btn-outline fh5co-content-nav'>HINNAKIRI</a></p>"
+
+    # BUTTON
+    # <a href='#' class='btn btn-info btn-outline fh5co-content-nav'>Uuri Lähemalt</a>
+
+  [[params.mission.item]]
+    weight = 3
+    name = "Trenet kaugjuht tarkvara"
+    title = "TRENET.EXE"
+    subtitle = "Lihtsamate arvutiga seonduvate probleemide lahendamiseks pakub TRENET arvutiabi kaughalduse korras. Kaughaldustarkvara on kasutaja arvutile ohutu, ei sisalda viiruseid, nuhkvara ega reklaamvara."
+    description = "Kaughalduse toimimise ainsaks kriteeriumiks on toimiv internetiühendus. Arusaadavalt peab teie arvuti olema sisselülitatud. Kaughalduse sessiooni algatab alati klient. Iseseisvalt ei ole TRENET'il võimalik kaughaldust kliendi arvutis käivitada.<p><a href='/teenused' class='btn btn-info btn-outline fh5co-content-nav'>Uuri Lähemalt</a> <a href='#' class='btn btn-primary btn-outline fh5co-content-nav'>HINNAKIRI</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = true
+  title = "Meie Tooted"
+  vidlink = "https://www.youtube.com/watch?v=5y2GolcfFT0"
+  description = "Trenet pakub laia valikut erinevate tehnoloogia toodete seas"
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "<a href='tooted/nod32' class='btn btn-primary btn-outline'>NOD 32</a>"
+    description = "Auhinnatud ThreatSense® mootoril põhinev viirusetõrjetarkvara ESET NOD32 avastab ja teeb kahjutuks ennetavalt rohkem viirusi ja muid Interneti-ohte kui ükski teine saadaolev programm."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "<a href='tooted/finjan' class='btn btn-primary btn-outline'>Finjan</a>"
+    description = "M86 Security (Finjan) pakub tooteid turvalise internetilüüsi tarbeks ärikasutajatele. Kasutusel on patendeeritud aktiivne reaalajas toimiv kontrolltehnoloogia."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "<a href='tooted/sophos' class='btn btn-primary btn-outline'>Sophos</a>"
+    description = "Üle 100 miljoni kasutaja poolt usaldatud ja turvalisuse ekspertide poolt pikaajaliste liidrite Mcafee ja Symantec'i tõsiseltvõetavaks alternatiiviks tunnistatud Sophos pakub oma mitmete turvatoodete kaudu parimat kaitset tänapäeva kirjus IT-maailmas"
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "<a href='tooted/kiipkaardilugejad' class='btn btn-primary btn-outline'>SCM & Identive</a>"
+    description = "Identive'i (SCM Microsystems) kaardilugejate abil saad kasutada ID-kaardi elektroonilisi funktsione nagu autentimine pangas, dokumentide digitaalne allkirjastamine jpm."
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "<a href='tooted/avast' class='btn btn-primary btn-outline'>Avast</a>"
+    description = "avast! Home Edition on paljude testide põhjal parim tasuta viirusetõrje, mis ületab oma näitajatega isegi mitmeid hästituntud tasulisi viirusetõrjeprogramme."
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "<a href='tooted/dell' class='btn btn-primary btn-outline'>DELL</a>"
+    description = "TRENET on Dell'i registreeritud partner (Dell Registered Partner, consumer and small business)."
+
+
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Ram"
+    img = "images/stock_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Gigabyte"
+    img = "images/stock_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Cooler"
+    img = "images/stock_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Server"
+    img = "images/stock_4.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Server"
+    img = "images/stock_4.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Cooler"
+    img = "images/stock_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Gigabyte"
+    img = "images/stock_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Ram"
+    img = "images/stock_1.jpg"
+
+# Team section
+[params.team]
+  enable = false
+  title = "Meet The Team"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.team.item]]
+    name = "Jean Doe"
+    position = "Chief legend"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person1.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    linkedin = "#"
+
+  [[params.team.item]]
+    name = "Alice Doe"
+    position = "Chief overlord"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person2.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  [[params.team.item]]
+    name = "John Doe"
+    position = "Chief haranguer"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person3.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+# Offers section
+[params.offers]
+  enable = true
+  title = "Meie Pakkumised"
+  description = "Trenet'i Pakkumised"
+
+  # Siin on kasutusel .item parameeter
+  # See tähendab et kopeerides terve see rida: 
+  #
+  # [[params.offers.item]]
+  #  title = "TIITEL"
+  #  description = "KIRJELDUS"
+  # 
+  # Ning vahetades tiitli ja kirjelduse saad lisada oma pakkumise
+
+
+  [[params.offers.item]]
+    title = "Miks praegusel Hansaraama kliendil tasub üle minna Standard Books'ile KOHE?"
+    description = "Kui olete"
+
+    [[params.offers.item]]
+    title = "Miks praegusel Hansaraama kliendil tasub üle minna Standard Books'ile KOHE?"
+    description = "Kui olete Hansaraama litsentsiomanik ja Teil on kehtiv arendusleping, pakume Standard Books'i hinnakirjajärgsetest hindadest allahindlust 50%! Kui olete hetkel Hansaraama rentija, siis Standard Books'i rendile üleminekul igakuised rendimakse Teie jaoks ei suurene!Kui olete Hansaraama litsentsiomanik ja Teil on kehtiv arendusleping, pakume Standard Books'i hinnakirjajärgsetest hindadest allahindlust 50%! Kui olete hetkel Hansaraama rentija, siis Standard Books'i rendile üleminekul igakuised rendimakse Teie jaoks ei suurene!Kui olete Hansaraama litsentsiomanik ja Teil on kehtiv arendusleping, pakume Standard Books'i hinnakirjajärgsetest hindadest allahindlust 50%! Kui olete hetkel Hansaraama rentija, siis Standard Books'i rendile üleminekul igakuised rendimakse Teie jaoks ei suurene!Kui olete Hansaraama litsentsiomanik ja Teil on kehtiv arendusleping, pakume Standard Books'i hinnakirjajärgsetest hindadest allahindlust 50%! Kui olete hetkel Hansaraama rentija, siis Standard Books'i rendile üleminekul igakuised rendimakse Teie jaoks ei suurene!Kui olete Hansaraama litsentsiomanik ja Teil on kehtiv arendusleping, pakume Standard Books'i hinnakirjajärgsetest hindadest allahindlust 50%! Kui olete hetkel Hansaraama rentija, siis Standard Books'i rendile üleminekul igakuised rendimakse Teie jaoks ei suurene!Kui olete Hansaraama litsentsiomanik ja Teil on kehtiv arendusleping, pakume Standard Books'i hinnakirjajärgsetest hindadest allahindlust 50%! Kui olete hetkel Hansaraama rentija, siis Standard Books'i rendile üleminekul igakuised rendimakse Teie jaoks ei suurene!"
+
+     [[params.offers.item]]
+    title = "Miks praegusel Hansaraama kliendil tasub üle minna Standard Books'ile KOHE?"
+    description = "Kui olete Hansaraama litsentsiomanik ja Teil on kehtiv arendusleping, pakume Standard Books'i hinnakirjajärgsetest hindadest allahindlust 50%! Kui olete hetkel Hansaraama rentija, siis Standard Books'i rendile üleminekul igakuised rendimakse Teie jaoks ei suurene!"
+
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Võta ühendust"
+  message = "Olete huvitatud mõnest teenusest? Või soovite uurida veel lähemalt? Võtke Ühendust!"
+  name_placeholder = "Nimi"
+  email_placeholder = "Email"
+  email_disclaimer = "Me ei jaga teie poolt usaldatud andmeid"
+  message_placeholder = "Sõnum"
+  button_text = "Saada"
+
+  [[params.contact.contactdata]]
+    title = "LHV Pank"
+    description = "a/a: 771000783135 IBAN: EE607700771000783135 | SWIFT/BIC: LHVBEE22"
+  [[params.contact.contactdata]]
+    title = "SEB Pank"
+    description = "a/a: 10002050585000 IBAN: EE801010002050585000 | SWIFT/BIC: EEUHEE2X"
+  [[params.contact.contactdata]]
+    title = "Swedbank"
+    description = "IBAN: EE542200221011528790 | SWIFT/BIC: HABAEE2X"
+ 
+
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a><br>Modified and Designed by <a href='https://github.com/EricTalv/' target='_blank'>EricTalviste</a> </small></p>"
+  github = "#"
+  twitter = "#"
+  facebook = "#"
+  vine = "#"
+  linkedin = "#"
+  instagram = "#"
+  
