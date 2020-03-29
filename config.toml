@@ -128,7 +128,7 @@ title = "TRENET | IT & IDEE"
   enable = true
   video = true
   title = "Meie Tooted"
-  vidlink = "https://www.youtube.com/watch?v=5y2GolcfFT0"
+  vidlink = "https://www.youtube.com/watch?v=IyQCbAUvpaA"
   description = "Trenet pakub laia valikut erinevate tehnoloogia toodete seas"
 
   [[params.services.item]]
