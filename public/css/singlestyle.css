@@ -1,0 +1,50 @@
+body {
+  padding: 30px;
+}
+
+/*Breadcrumbs*/
+.breadcrumb {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.breadcrumb {
+  color: #8DC84C;
+}
+
+.breadcrumb > a {
+  color: #9b9b9b;
+}
+
+/*Navigation bar*/
+.nav-item > div {
+    padding: .75rem 1.25rem;
+    color: #8DC84C;
+    transition: .5s;
+}
+
+.nav-item > div > a {
+    color: #7f7f7f;
+}
+
+.nav-item > div:hover {
+	background: #f7f7f7;
+	cursor: grab;
+	padding-left: 2rem;
+} 
+
+/*Footer*/
+#et-footer {
+  text-align: center;
+}
+
+/*Links*/
+a {
+  color: #8DC84C;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: red;
+  margin-left: 8px;
+}

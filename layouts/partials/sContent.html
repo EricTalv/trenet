@@ -1,0 +1,23 @@
+<!-- PILLS/ NAV BAR -->
+<div class="row">
+	<div class="col-md-4">
+		<ul class="nav flex-column nav-pills">
+
+			{{ range .Params.navitem }}
+			<li class="nav-item">
+				<div><span class="icon-arrow-right"></span> <a href="{{ .navlink }}" class="lead">{{ .navtitle}}</a></div>
+			</li>
+			{{ end }}
+		</ul>
+	</div>
+	<!-- DESCRIPTION -->
+	<div class="col-md-8">
+		<div class="page-header">
+			<h1>
+			{{ .Params.subtitle }}
+			</h1>
+			<hr>			
+		</div>
+		{{ .Content }}
+	</div>
+</div>

@@ -1,0 +1,22 @@
+<div id="et-offers" data-section="offers">
+	<div class="container">
+		{{ with .Site.Params.offers }}
+		<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+			<h2>{{ .title }}</h2>
+			<p>{{ .description | markdownify }}</p>
+		</div>
+		
+		<div id="et-container">
+			{{ range .item }}
+			<div class="et-heading et-box et-scroll--white">
+				<h2>{{ .title }}</h2>
+				<hr>
+				<p>{{ .description | markdownify }}</p>
+			</div>
+
+			{{ end }}
+		</div>
+		
+		{{ end }}
+	</div>
+</div> <!-- END ET-offers -->

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teenuseds on TRENET | IT &amp; IDEE</title>
+    <link>/teenused/</link>
+    <description>Recent content in Teenuseds on TRENET | IT &amp; IDEE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-AU</language>
+    <lastBuildDate>Mon, 12 Nov 2018 23:51:26 +0200</lastBuildDate>
+    
+	<atom:link href="/teenused/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hansaworld</title>
+      <link>/teenused/hansaworld/</link>
+      <pubDate>Mon, 12 Nov 2018 23:51:26 +0200</pubDate>
+      
+      <guid>/teenused/hansaworld/</guid>
+      <description>Raamatupidamistarkvara majutusteenus, mis on kättesaadav 24/7 ning raamatupidaja võib teha tööd sõltumata asukohast. Vajalik on ainult internetiühendus.
+HansaWord tarkvara majutust pakub TRENET AS koostöös Excellent Business Solutions Eesti AS-ga.
+Majutatud raamatupidamistarkvara eeliseks on:
+ kulude täpne prognoosimine, kuna teenusel on fikseeritud hind; varukoopiate tegemine on garanteeritud; puudub vajadus oma serverile, puuduvad selle hooldus- ja ülalpidamiskulud.  Küllap tekkis Sul küsimusi, soovid lisainfot või personaalset pakkumist? Kuulame Su soove ja leiame lahenduse.</description>
+    </item>
+    
+    <item>
+      <title>Pangalink</title>
+      <link>/teenused/pangalink/</link>
+      <pubDate>Mon, 12 Nov 2018 23:51:21 +0200</pubDate>
+      
+      <guid>/teenused/pangalink/</guid>
+      <description>Pangalink on makselahenduse installeerimine (loomine) kaupmehe e-poele.
+Pakume pangalingi loomist Eestis tegutse-vatesse pankadesse:
+ SwedBank SEB Sampo Nordea  Ning erinevaid krediitkaardi makselahendusi
+ PayPal Visa MasterCard  </description>
+    </item>
+    
+    <item>
+      <title>Hinnakiri</title>
+      <link>/teenused/hinnakiri/</link>
+      <pubDate>Mon, 12 Nov 2018 23:51:11 +0200</pubDate>
+      
+      <guid>/teenused/hinnakiri/</guid>
+      <description>Arvutisüsteemide teenindus on valdkond, mis tegeleb tööjõuressurside optimaalse müügiga klientidele, kes vajavad oma infosüsteemile hooldust, kuid kelle hooldusvajadused ei ole nii suured, et oleks majanduslikult otstarbekas palgata ja pidevalt koolitada oma hooldusmeeskonda.
+TRENET on kogemustele toetudes loonud infosüsteemide teenindussüsteemi, mis võimaldab kiiret ja kvaliteetset hooldust madalate kuludega.
+ Hinnad ei sisalda käibemaksu  Tarkvara paigaldus / hooldus / seadistus 40 € Kaughooldus/-haldus / Helpdesk 35 € Konsultatsioon / Tarkvara audit 40 € Operatsioonisüsteemi ja servertarkvara hooldus / paigaldus / Andmete taastamine 70 € Arvutustehnika hooldus / paigaldus / testimine 40 € Arvutivõrgu hooldus / testimine 40 € Arvutivõrgu sertifitseerimine 70 € Transport Tallinnast välja (€/km) 0.</description>
+    </item>
+    
+  </channel>
+</rss>

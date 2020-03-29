@@ -1,0 +1,30 @@
+<div class="row">
+	<div class="col-md-12">
+		<h2 class="text-center">
+			<img class="img-fluid" src="/images/trenet-logo-colored.svg">
+
+		</h2>
+		<nav>
+		<ol class="breadcrumb">
+				<script language="JavaScript">
+				<!--
+				   String.prototype.capitalizeFirstLetter = function() {
+				      return this.charAt(0).toUpperCase() + this.slice(1);
+				   }
+
+				   var path = "<a href='{{ .Site.BaseURL}}'>Avaleht&nbsp;</a>";
+				   var href = document.location.href;
+				   var s = href.split("/");
+				   for (var i=3;i<(s.length-2);i++) {
+				      path+= "/" + "&nbsp;<a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a>&nbsp;";
+				   }
+				   i=s.length-1;
+				   path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+				   path+= "/" + "&nbsp;{{.Title}}";
+				   document.writeln(path);
+				//-->
+				</script>
+			</ol>
+		</nav>
+	</div>
+</div>
